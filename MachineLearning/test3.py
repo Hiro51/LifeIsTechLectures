@@ -1,8 +1,8 @@
 #-*- coding:utf-8 -*-
 import json, urllib2
 
-API_KEY = 'yrwhU1nBLdzmnIwH'
-API_SECRET = 'EmmpbLCT2ThbVjdw'
+API_KEY = '{API_KEY}'
+API_SECRET = '{API_SECRET}'
 jobs = 'face_add' #画像を追加する
 pic_urls = ['http://up.gc-img.net/post_img_web/2014/11/QKsfBLucF3igAn3_14625.jpeg',
             'http://geitopi.com/wp-content/uploads/2013101508.jpg',

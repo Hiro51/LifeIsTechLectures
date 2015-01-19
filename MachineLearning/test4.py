@@ -1,8 +1,8 @@
 #-*- coding:utf-8 -*-
 import json, urllib2
 
-API_KEY = 'yrwhU1nBLdzmnIwH'
-API_SECRET = 'EmmpbLCT2ThbVjdw'
+API_KEY = '{API_KEY}'
+API_SECRET = '{API_SECRET}'
 jobs = 'face_recognize' #アルゴリズムの種類,faceやscene_understanding_3
 pic_url = 'http://pic.prepics-cdn.com/nakai0818/27014912.jpeg' #解析したい画像のURL
 url = 'http://rekognition.com/func/api/?api_key=' + API_KEY + '&api_secret=' + API_SECRET + '&jobs=' + jobs + '&urls=' + pic_url
